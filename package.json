@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://github.com/Kleizardx/codespacesGitHub.git",
+  "homepage": "https://Kleizardx.github.io/codespacesGitHub",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://github.com/Kleizardx/codespacesGitHub.git'",
+    "build-gh": "parcel build --public-url 'https://Kleizardx.github.io/codespacesGitHub'",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
